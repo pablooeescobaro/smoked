@@ -1,0 +1,23 @@
+@use "sass:math";
+
+//color
+
+$snow: #FFFAFB;
+$dark-blue: #11263A;
+$yellow: #F6AE2d;
+$orange: #F96F5D;
+$blue: #5DB7DE;
+
+//font
+
+$f: "Montserrat", sans-serif;
+
+//font-size
+
+$base-font-size: 16px;
+
+$h36: math.div(36px, $base-font-size);
+$h24: math.div(24px, $base-font-size);
+$h20: math.div(20px, $base-font-size);
+$h18: math.div(18px, $base-font-size);
+// $h90: calcRem(90px);

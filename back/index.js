@@ -18,7 +18,7 @@ routes.forEach((item) => {
   app.use(`/api/v1/${item}`, require(`./src/routes/${item}`));
 });
 
-const PORT = 3000;
+const PORT = 3001;
 createServer({}, app).listen(PORT);
 console.log("Server running at", PORT);
 //Route declaration
